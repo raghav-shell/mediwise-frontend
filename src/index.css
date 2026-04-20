@@ -419,5 +419,39 @@ button { font-family: var(--font-family); border: none; background: none; cursor
 
 @media (max-width: 640px) {
   .nav-links span { display: none; }
-  .page-title { font-size: 2.25rem; }
+  .page-title { font-size: 2rem; }
+  .page-subtitle { font-size: 0.95rem; padding: 0 0.5rem; }
+  
+  .main-content {
+    padding: 1rem;
+  }
+  
+  .card {
+    padding: 1.25rem;
+    border-radius: var(--radius-lg);
+  }
+  
+  .navbar-content {
+    padding: 0.75rem 1rem;
+  }
+  
+  .input-field {
+    padding: 1rem 1rem 1rem 3rem;
+    font-size: 1rem;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.95rem;
+  }
+  
+  form .input-group, form.card {
+    flex-direction: column;
+  }
+  
+  form .input-group .btn, form.card .btn {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
 }
+
