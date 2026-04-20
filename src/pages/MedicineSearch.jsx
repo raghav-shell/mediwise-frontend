@@ -48,7 +48,7 @@ export default function MedicineSearch() {
     setStatus('loading');
     
     try {
-      const response = await fetch(`http://localhost:3000/api/search?q=${encodeURIComponent(searchQuery)}`);
+      const response = await fetch(`https://mediwise-backend-production.up.railway.app/api/search?q=${encodeURIComponent(searchQuery)}`);
       
       if (!response.ok) {
         const errData = await response.json().catch(() => ({}));

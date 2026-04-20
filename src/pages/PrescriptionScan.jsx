@@ -48,7 +48,7 @@ export default function PrescriptionScan() {
     
     if (!medDetails[baseName]) {
       try {
-        const res = await fetch(`http://localhost:3000/api/search?q=${encodeURIComponent(baseName)}`);
+        const res = await fetch(`https://mediwise-backend-production.up.railway.app/api/search?q=${encodeURIComponent(baseName)}`);
         const result = await res.json();
         setMedDetails(prev => ({ ...prev, [baseName]: result }));
       } catch (e) {
@@ -69,7 +69,7 @@ export default function PrescriptionScan() {
       const base64data = reader.result;
       
       try {
-        const response = await fetch('http://localhost:3000/api/scan', {
+        const response = await fetch('https://mediwise-backend-production.up.railway.app/api/scan', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ image: base64data })

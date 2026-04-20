@@ -31,7 +31,7 @@ export default function InteractionChecker() {
       setStatus('loading');
       
       try {
-        const response = await fetch('http://localhost:3000/api/interactions', {
+        const response = await fetch('https://mediwise-backend-production.up.railway.app/api/interactions', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ medicines: validMeds })
