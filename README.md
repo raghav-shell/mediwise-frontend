@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/raghav-shell/mediwise-frontend/main/public/logo.svg" alt="MediWise Logo" width="120"/>
+  <img src="https://raw.githubusercontent.com/raghav-shell/mediwise-frontend/main/public/logo.png" alt="MediWise Logo" width="120"/>
   <h1>MediWise AI</h1>
   <p><strong>A Modern, AI-Powered Healthcare Companion</strong></p>
   
