@@ -1,0 +1,67 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="800" fill="url(#bgGradient)"/>
+  
+  <!-- Navbar -->
+  <rect width="1200" height="70" fill="#16213e" opacity="0.7"/>
+  <circle cx="40" cy="35" r="20" fill="#00d4ff" opacity="0.8"/>
+  <text x="70" y="45" font-family="Arial" font-size="24" font-weight="bold" fill="#00d4ff">MediWise</text>
+  
+  <!-- Navigation Links -->
+  <text x="300" y="45" font-family="Arial" font-size="14" fill="#aaa">Search</text>
+  <text x="450" y="45" font-family="Arial" font-size="14" fill="#aaa">Interactions</text>
+  <text x="600" y="45" font-family="Arial" font-size="14" fill="#aaa">Scan</text>
+  <text x="750" y="45" font-family="Arial" font-size="14" fill="#aaa">My Cabinet</text>
+  <rect x="1050" y="25" width="100" height="40" rx="5" fill="#00d4ff" opacity="0.8"/>
+  <text x="1100" y="48" font-family="Arial" font-size="12" fill="#000" text-anchor="middle" font-weight="bold">Log In</text>
+  
+  <!-- Hero Section -->
+  <text x="100" y="150" font-family="Arial" font-size="48" font-weight="bold" fill="#ffffff">
+    Your AI-Powered
+  </text>
+  <text x="100" y="210" font-family="Arial" font-size="48" font-weight="bold" fill="#00d4ff">
+    Healthcare Companion
+  </text>
+  <text x="100" y="270" font-family="Arial" font-size="16" fill="#bbb">
+    Instantly understand medications, scan prescriptions, and check for drug interactions
+  </text>
+  
+  <!-- Feature Cards -->
+  <g id="card1">
+    <rect x="100" y="320" width="250" height="200" rx="20" fill="#16213e" opacity="0.6" stroke="#00d4ff" stroke-width="2"/>
+    <circle cx="225" cy="360" r="25" fill="#00d4ff" opacity="0.3"/>
+    <text x="225" y="365" font-family="Arial" font-size="28" fill="#00d4ff" text-anchor="middle">🔍</text>
+    <text x="225" y="420" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Medicine Search</text>
+    <text x="225" y="470" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">Instant lookup with</text>
+    <text x="225" y="490" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">AI insights</text>
+  </g>
+  
+  <g id="card2">
+    <rect x="475" y="320" width="250" height="200" rx="20" fill="#16213e" opacity="0.6" stroke="#00d4ff" stroke-width="2"/>
+    <circle cx="600" cy="360" r="25" fill="#00d4ff" opacity="0.3"/>
+    <text x="600" y="365" font-family="Arial" font-size="28" fill="#00d4ff" text-anchor="middle">📸</text>
+    <text x="600" y="420" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Scan Prescription</text>
+    <text x="600" y="470" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">Upload & extract</text>
+    <text x="600" y="490" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">medicine names</text>
+  </g>
+  
+  <g id="card3">
+    <rect x="850" y="320" width="250" height="200" rx="20" fill="#16213e" opacity="0.6" stroke="#00d4ff" stroke-width="2"/>
+    <circle cx="975" cy="360" r="25" fill="#00d4ff" opacity="0.3"/>
+    <text x="975" y="365" font-family="Arial" font-size="28" fill="#00d4ff" text-anchor="middle">🛡️</text>
+    <text x="975" y="420" font-family="Arial" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">Check Interactions</text>
+    <text x="975" y="470" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">Avoid dangerous</text>
+    <text x="975" y="490" font-family="Arial" font-size="12" fill="#aaa" text-anchor="middle">drug combinations</text>
+  </g>
+  
+  <!-- Decorative circles -->
+  <circle cx="150" cy="550" r="100" fill="#00d4ff" opacity="0.05"/>
+  <circle cx="1050" cy="650" r="150" fill="#00d4ff" opacity="0.05"/>
+</svg>
